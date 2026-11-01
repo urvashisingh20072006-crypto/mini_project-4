@@ -104,30 +104,6 @@ def get_top_students(students):
         students.items()
          ))
 
-#     def class_summary(students):
-#         total_average=0
-#         passed=0
-
-
-#         for student in students.values():
-#             average=calculate_average(student["marks"])
-#             total_average= total_average+average
-
-#             if average>=40:
-#                 passed=passed+1
-#         class_average=total_average/len(students) 
-
-#         print("Total Students:",len(students))
-#         print("class Average:",class_average)
-#         print("Students Passed:",passed)     
-
-
-# total1=calculate_total([78,65,88])
-# total2=calculate_total([35,72,61])
-
-# print(total1)
-# print(total2)
-
 def build_report(student):
     marks = student["marks"]
 
